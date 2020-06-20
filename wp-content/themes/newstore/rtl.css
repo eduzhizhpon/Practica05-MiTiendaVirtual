@@ -1,0 +1,455 @@
+/*
+Theme Name: NewSrore
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+	text-align: right;
+}
+
+.text-left{
+	text-align: right !important;
+}
+
+.text-right{
+	text-align: left !important;
+}
+
+.site-branding{
+	text-align: right;
+}
+
+.owl-nav {
+    width: 100px;
+    margin: 0 auto;
+}
+
+button.owl-next {
+    float: right;
+}
+#TF-Navbar>ul {
+    padding-right: 0;
+}
+
+@media (min-width: 768px){
+	#product-catalogue-menu>li .mobile-nav {
+	    float: left;
+	}
+	#TF-Navbar>ul>li {
+		float: right;
+	}
+	#product-catalogue-menu>li .mobile-nav {
+	   transform: rotate(90deg);
+	}
+}
+
+.newstore-myaccount-dropdown .dropdown-menu{
+	text-align: right;
+}
+
+.newstore-myaccount-dropdown .dropdown-menu i{
+	margin-right: 0;
+	margin-left: 8px;
+}
+
+.header-cart-conetnts {
+    right: auto;
+    left: -10px;
+    top: 48px;
+}
+
+.header-cart-conetnts:before {
+    left: 34.7px;
+    right: auto;
+}
+
+.header-cart-conetnts:after {
+    left: 34px;
+    right: auto;
+}
+
+select {
+    padding-left: 25px;
+    background: url(images/down-arrow.png) no-repeat 7% center;
+    padding-right: 10px;
+    text-align: left;
+}
+
+.search-form-cat-container {
+    left: auto;
+    right: 0;
+}
+
+button.main-search-submit {
+    right: auto;
+    left: 0;
+}
+
+button.main-search-submit:before {
+    left: auto;
+    right: 0;
+}
+
+.search-form-cat-container:after {
+    right: auto;
+    left: -2px;
+}
+
+input.main-input-search {
+    padding-right: 160px;
+    padding-left: 60px;
+}
+
+.ui-autocomplete li {
+    text-align: right;
+}
+
+select option, 
+select optgroup {
+    padding-right: 10px;
+}
+
+.dropdown-menu {
+    right: 0;
+    left: auto;
+    text-align: right;
+}
+
+.product-catalogue-menu>li ul {
+    left: auto;
+    right: 100%;
+}
+
+.cats-menu-container {
+    text-align: right;
+}
+
+.main-slider-carousel .owl-nav {
+    right: auto;
+    left: 0;
+    text-align: right;
+}
+
+.main-slider-carousel .owl-nav {
+    right: auto;
+    left: 0;
+    text-align: right;
+}
+
+.main-slider-carousel .owl-nav button.owl-next {
+    float: right;
+}
+
+.main-slider-carousel .owl-nav {
+    right: auto;
+    left: 0;
+    text-align: right;
+}
+
+.main-slider-carousel .owl-nav button.owl-prev {
+    /* margin-right: 0; */
+    /* margin-left: 5px; */
+}
+
+.main-slider-carousel .owl-nav button.owl-next {
+    /* margin-left: 10px; */
+    float: right;
+}
+
+.main-slider-carousel .carousel-caption {
+    text-align: right;
+    left: auto !important;
+    right: 0;
+    max-width: 80%;
+}
+
+.main-slider-carousel .slide-heading {
+    padding-right: 40px;
+    padding-left: 20px;
+}
+
+.main-slider-carousel .slide-descriptin {
+    padding-right: 40px;
+    padding-left: 20px;
+}
+
+.btn-main-slide {
+    margin-left: 0;
+    margin-right: 40px;
+}
+
+.main-slider-carousel .owl-dots {
+    right: auto;
+    left: 10px;
+}
+.newstore-myaccount-dropdown.dropdown.show .dropdown-menu {
+    right: 64px;
+}
+
+.service-info {
+    text-align: right;
+}
+
+.service-icon {
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+
+
+
+
+.tfwctool-floating-cart-container-inner {
+    left: auto;
+    right: -62px;
+}
+
+/* a.btn.btn-tfwctool-chckot-url {
+    float: left !important;
+} */
+
+.tfwwc-tool-f-cart-bottom-inner {
+    /* text-align: left; */
+}
+
+.tfwwc-tool-f-cart-bottom {
+    padding-left: 40px;
+    padding-right: 80px;
+}
+
+.tfwctool-f-cart-quantity {
+    float: right;
+}
+
+.tfwctool-floating-cart-container .tfwc-f-cart-product .product-img-link {
+    float: right;
+    padding-left: 15px;
+    padding-right: 0;
+}
+
+.tfwc-f-cart-product a.remove {
+    float: left;
+    right: auto;
+    left: 0;
+}
+
+#tf-f-cart-icon .tf-f-cart-item-count {
+    right: auto;
+    left: -15px;
+}
+
+.tfwctool-fl-cart-product-price {
+    float: left;
+    clear: left;
+}
+
+
+span.post-meta-item {
+    display: inline-block;
+}
+
+span.post-meta-item i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.product_type_simple.add_to_cart_button:before, 
+.product_type_variable.add_to_cart_button:before {
+    margin-right: 0;
+    margin-left: 7px;
+}
+
+.tf-loop-product-img-container .add_to_wishlist {
+    right: auto;
+    left: 10px;
+}
+
+.woocommerce ul.products li.product .onsale, .woocommerce span.onsale {
+    right: 10px;
+    left: auto;
+}
+
+.widget-product-carousel .owl-nav {
+    width: 110px;
+    right: auto;
+    left: 0;
+}
+
+.product-carasol .owl-nav {
+    right: auto;
+    left: 10px;
+}
+
+.front-page-product-widget .section-title {
+    text-align: right;
+}
+
+.widget-inner .section-title {
+    font-size: 25px !important;
+    text-align: right;
+}
+
+.woocommerce.front-page-widget-area-column ul.cart_list li img, 
+.woocommerce.front-page-widget-area-column ul.product_list_widget li img {
+    float: right !important;
+    margin-right: 0;
+    margin-left: 10px;
+}
+/* .post-meta-item:before {
+    content: "/";
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #ddd;
+}
+
+.post-meta-item:after {
+    content: none;
+} */
+
+
+
+
+/* shop */
+.product-view-change-container {
+    float: left;
+}
+
+select#woocommerce_product_count_select {
+    background-position: 13% center;
+}
+
+a.next.page-numbers {
+    float: left;
+}
+
+.page-numbers {
+    float: right;
+}
+
+a.next.page-numbers:before {
+    content: "\f053";
+    font-family: "FontAwesome";
+    font-size: 12px;
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+a.next.page-numbers:after {
+    content: none;
+}
+
+.widget li:before {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+
+span.cat-toggle {
+    float: left;
+}
+
+.widget li:before {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.woocommerce .cart_list li.woocommerce-mini-cart-item.mini_cart_item a.remove {
+    left: 0;
+    right: auto;
+}
+
+.woocommerce ul.cart_list li, .woocommerce ul.product_list_widget li {
+    padding-left: 2em;
+    padding-right: 5px !important;
+}
+
+.cart-img-thumb-container {
+    float: left;
+    margin-left: 10px;
+}
+
+.woocommerce ul.cart_list li img, .woocommerce ul.product_list_widget li img {
+    float: right;
+    margin-right: 0;
+    margin-left: 4px;
+}
+
+.woocommerce-mini-cart-item.mini_cart_item .cart-item-data {
+    float: left;
+    order: 1;
+}
+
+p.woocommerce-mini-cart__total.total span.woocommerce-Price-amount.amount {
+    float: left;
+}
+
+.woocommerce .woocommerce-widget-layered-nav-list span.count {
+    float: left;
+}
+
+.tf-shot-color-attr {
+    float: right;
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+p.woocommerce-mini-cart__total.total {
+    text-align: right;
+}
+
+.cart-link-contents span.count, .wishlist-link-contents span.count {
+    right: auto;
+    left: -7px;
+}
+.woocommerce-widget.widget li del, 
+.woocommerce-widget.widget li ins {
+    float: right;
+}
+/* shop */
+
+/* blog */
+p.logged-in-as a {
+    display: inline-block;
+    margin-left: 20px;
+}
+#newstore-post-nav .previous .nav-title {
+    margin-right: 20px;
+    margin-left: 0;
+}
+/* blog */
+
+
+
+#scroll-top {
+    right: auto;
+    left: 50px;
+}
+
+.tfwctool-floating-cart-container {
+    left: auto;
+    right: 100px;
+}
+
+/* product page */
+.woocommerce-page div.product div.summary a.button.add_to_wishlist {
+    float: right;
+    margin-right: 10px;
+}
+
+.woocommerce-page div.product div.summary form.cart {
+    float: right;
+}
+.zoomWindow {
+    left: auto !important;
+    right: 557px;
+}
+/* product page */

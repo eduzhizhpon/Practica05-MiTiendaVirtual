@@ -1,0 +1,141 @@
+li#accordion-section-newstore_companion_installer {
+    display: block !important;
+    background-color: #FFF;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd !important;
+}
+
+.control-section-companion {
+    border-top: none;
+    border-bottom: 1px solid #ddd;
+    padding: 7px 14px 16px 14px;
+    text-align: right;
+}
+.control-section-companion p{
+	text-align:left;
+	margin-top:0;
+}
+
+
+.section-themefarmer-upsale {
+    display: block !important;
+    text-align: center;
+    padding: 10px 0 20px 0;
+    margin: 0;
+}
+
+.section-themefarmer-upsale #themefarmer-pro-button {
+    background-color: #00aeef;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #FFF;
+    border-radius: 2px;
+    border-bottom: 2px solid #0489bb;
+    display: inline-block;
+}
+
+#themefarmer-pro-button {
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.themefarmer-upsale-control {
+    background-color: #FFF;
+    padding: 15px;
+}
+
+.themefarmer-pro-features li .tf-pro-upsale-label {
+    background-color: #9E9E9E;
+    color: #FFF;
+    padding: 3px 7px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.themefarmer-pro-features li {
+    clear: both;
+    margin-bottom: 20px;
+}
+
+.themefarmer-pro-features li .tf-pro-upsale-text {
+    display: table-cell;
+}
+
+.themefarmer-pro-more li:before {
+    content: "*";
+    margin-right: 5px;
+}
+.themefarmer-pro-more li {
+    margin-bottom: 15px;
+}
+
+.themefarmer-customizer-notification-dismiss {
+    cursor: pointer;
+    float: right;
+    cursor: pointer;
+    float: right;
+    width: 20px;
+    border-radius: 100%;
+    text-align: center;
+    transition: all .2s ease-in-out;
+}
+
+.themefarmer-customizer-notification-dismiss:hover {
+    background-color: #EEEEEE;
+    color: #F44336;    
+}
+
+.themefarmer-plugin-install-control {
+    background-color: #FFF;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.themefarmer-plugin-install-control .themefarmer-plugin-activate {
+    float: right;
+}
+
+li#accordion-section-amazica_pro_features_section > h3 {
+    background-color: #E91E63 !important;
+    color: #FFF !important;
+}
+
+li#accordion-section-amazica_pro_features_section > h3:after {
+    color: #ffffff !important;
+}
+
+li#accordion-section-newstore-upsell {
+    display: block !important;
+    text-align: center;
+    padding: 20px;
+    background-color: #FFF;
+    /* margin: 15px; */
+}
+
+a#themefarmer-pro-button {
+    background-color: #FFC107;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-bottom: 2px solid #dda90e;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+li#accordion-section-newstore-upsell-section {
+    display: block !important;
+}
+
+a#newstore-pro-button {
+    background: #4CAF50 !important;
+    color: #FFF !important;
+    border-color: #009688 !important;
+    width: 90px;
+    text-align: center;
+}
