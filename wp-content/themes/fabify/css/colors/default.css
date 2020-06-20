@@ -1,0 +1,403 @@
+﻿/*=========================================
+    Primary Color
+=========================================*/
+body a {
+	color: #1490d7;
+}
+/* Header CSS */
+.header-top-info-1 .social li a i:hover {
+    background: #1490d7;
+}
+.header-top-info-1 .info li i {
+    color: #1490d7;
+}
+/* Menu CSS */
+.header-fabify > a.navbar-brand::first-letter {
+	color: #1490d7 !important;
+}
+.nav-fabify {
+	background: #1490d7;
+}
+.navbar-default .navbar-nav>.active > a, .navbar-default .navbar-nav>.active>a:hover, .dropdown-menu > .active > a {
+    background: #1490d7 !important;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+    color: #1490d7;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    background: #1490d7 !important;
+}
+
+.fabify-cart a.cart-icon span, .fabify-button a {
+    background: #1490d7;
+}
+
+/* Slider CSS */
+.slider-version-one .caption h1 span{
+    color: #1490d7;
+}
+.specia-btn-1:hover{
+    background: #1490d7;
+	border-color: #1490d7;
+}
+.owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
+    background: #1490d7;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #1490d7;
+}
+
+/* Service CSS */
+.section-heading span{
+    color: #1490d7;
+}
+.icon-block.icon-block-1:hover .icon-block-item i {
+    color: #1490d7;
+}
+
+/* Features  CSS */
+.features-version-six h2 span{
+    color: #1490d7;
+}
+
+/* Cal Action CSS */
+.call-to-action .background-overlay{
+    background: #1490d7;
+}
+.call-to-action .call-btn-1:hover {
+    color: #1490d7;
+}
+
+/* Service Section CSS */
+.service-version-one .service-icon-box i:hover {
+    background: #1490d7;
+}
+.specia-icon-effect-1 .specia-icon:after {
+	box-shadow: 0 0 0 4px #1490d7;
+}
+.specia-icon-effect-5 .specia-icon:hover {
+	box-shadow: 0 0 0 4px #1490d7;
+}
+.specia-icon-effect-6 .specia-icon:hover {
+	box-shadow: 0 0 0 4px #1490d7;
+}
+.specia-icon-effect-8 .specia-icon:hover {
+	background: #1490d7;
+}
+/* Features Section CSS */
+.features-version-one h2 span{
+    color: #1490d7;
+}
+.features-version-one .feature-box-info h4{
+    color: #1490d7;
+}
+
+/* Latest Blog Section CSS */
+.blog-version-1 article:hover footer.entry-footer{
+     background: #1490d7;
+}
+.entry-content .more-link:hover {
+    background: #1490d7;
+	border: solid 2px #1490d7;
+}
+
+/* Footer Section CSS */
+.footer-sidebar .widget .title-border { 
+    border-bottom: 2px solid #1490d7;
+}
+.widget table #next a, .widget table #prev a { 
+	color: #1490d7; font-weight: 600; 
+}
+.footer-sidebar  .widget ul li a:hover, .widget ul li a:active { 
+    color: #1490d7; 
+}
+.footer-sidebar .widget input[type="submit"]:hover{
+    background: #1490d7;
+    border-color: #1490d7;
+}
+.tagcloud a:hover, .tagcloud a:focus {  
+    border: 1px solid #1490d7;
+    background: #1490d7;
+}  
+
+/* Copyright Content */
+.payment-icon li a:hover{
+    color: #1490d7;
+}
+.footer-copyright p a:hover{
+    color: #1490d7;
+}
+.top-scroll {
+    background: #1490d7
+}
+
+/* Pagination CSS */
+.paginations a:hover, .paginations a:focus, .paginations a.active, span.page-numbers.current {
+    border: 1px solid #1490d7;
+    background-color: #1490d7;
+}
+
+/* Blog Page CSS */
+.page-wrapper article:hover footer.entry-footer {
+     background: #1490d7;
+}
+.comment-reply-title {
+    border-top: 4px solid #1490d7;
+}
+.required {
+    color: #1490d7;
+}
+a.comment-reply-link {
+    color: #1490d7;
+}
+
+/* Error Page CSS */
+.error-page h1{
+    color: #1490d7;
+}
+
+/* Form Element CSS */
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+    background: #1490d7;
+    border: solid 2px #1490d7;
+}
+
+/* Breadcrumb CSS */
+.page-breadcrumb a{
+    color: #1490d7;
+}
+
+/*Sidebar Area CSS */
+.sidebar .widget ul li a:hover, .widget ul li a:active { 
+    color: #1490d7; 
+}
+.sidebar .widget input[type="submit"]:hover{
+    background: #1490d7;
+    border-color: #1490d7;
+}
+.sidebar .widget .title-border { 
+    border-bottom: 2px solid #1490d7;
+}
+/* Typography */
+blockquote { 
+    border-left: 5px solid #1490d7 !important;
+}
+table th {     
+    border: 1px solid #1490d7;
+    background: #1490d7;
+}
+em, cite, q { 
+	color: #1490d7;
+}
+s, strike, del { 
+	color: #1490d7; 
+}
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span, h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+    color: #1490d7;
+}
+body a:focus, body a:hover {
+    color: #1490d7;
+}
+
+/* Form */
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+button:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+    background: #1490d7;
+    border: solid 2px #1490d7;
+}
+
+/* WooCommerce */
+.woocommerce a.button:hover, 
+.woocommerce button.button.alt:hover, 
+.woocommerce #respond input#submit:hover,
+.woocommerce input.button.alt:hover,
+.woocommerce button.button.alt.disabled:hover,
+.woocommerce-cart table.cart input.button:hover,
+.woocommerce input.button:hover,
+.woocommerce button.button:hover {
+	background: #1490d7;
+    border: solid 2px #1490d7;
+}
+.woocommerce nav.woocommerce-pagination ul li span.current {
+	background: #1490d7;
+	border: solid 1px #1490d7;
+}
+.woocommerce nav.woocommerce-pagination a.page-numbers:hover {
+	background: #1490d7;
+}
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover {
+	background: #1490d7;
+    border: solid 2px #1490d7;
+}
+.woocommerce p.stars a {
+	color: #1490d7;
+}
+.woo-sidebar .widget .title-border { 
+    border-bottom: 2px solid #1490d7;
+}
+.woocommerce a.remove:hover {
+	background: #1490d7;
+}
+.price_slider_wrapper .ui-slider .ui-slider-handle {
+    border: 5px solid #1490d7;
+}
+.price_slider_wrapper .ui-slider .ui-slider-range {
+  background: #1490d7;
+}
+.woocommerce-MyAccount-navigation ul li.is-active {
+	background: #1490d7;
+}
+.page-wrapper .posts-navigation a:hover {
+    background: #1490d7;
+	border: 2px solid #1490d7;
+}
+.bg-sticky {
+    background: #1490d7;
+}
+/* --------------------------------------
+=========================================
+    Secondary Color
+=========================================
+-----------------------------------------*/
+/* Menu CSS */
+.navbar-brand {
+	color: #283645 !important;
+}
+.fabify-button a:hover {
+    background: #283645;
+}
+
+/* Slider CSS */
+.owl-theme .owl-controls .owl-nav [class*=owl-] {
+    background: #202c3b;
+}
+/* Service CSS */
+.section-heading{
+    color: #283645;
+}
+.icon-block.icon-block-1 .icon-block-body h4 a {
+    color: #283645;
+}
+
+/* Features Section CSS */
+.features-version-six h2 {
+    color: #283645;
+}
+/* Latest Blog Section CSS */
+.blog-version-1 footer.entry-footer {
+    background: #283645;
+}
+.entry-content .more-link {
+    color: #283645;
+    border: solid 2px #283645;
+}
+
+/* Footer Section CSS */
+.footer-sidebar .widget table caption, .woo-sidebar .widget table caption  { 
+    background: #283645;
+}
+.footer-sidebar .background-overlay {
+	background: #283645;
+}
+/* Footer Copyright Section */
+.footer-copyright, .footer-copyright p, .footer-copyright p a {
+    background: #283645;
+}
+
+/* Blog Page CSS */
+footer.entry-footer {
+    background: #283645;
+}   
+h2.entry-title a {
+    color: #283645;
+}
+.entry-header h2.entry-title {
+    color: #283645;
+}
+
+/* Error Page CSS */
+.error-page h2{
+    color: #283645;
+}
+
+/* Form Element CSS */
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    color: #283645;
+    border: solid 2px #283645;
+}
+
+/*Sidebar Area CSS */
+.sidebar .widget .widget-title {
+    color: #283645;
+}
+.sidebar .widget input[type="submit"] {
+    color: #283645;
+    border: solid 2px #283645;
+}
+.sidebar .widget table caption { 
+    background: #283645;
+}
+/* Typography */
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+	color: #283645;
+}
+blockquote cite, blockquote small { 
+	color: #283645;
+}
+address { 
+	color: #283645;
+}
+ins { 
+	color: #283645;
+}	
+/* WooCommerce */
+.woocommerce a.button, 
+.woocommerce button.button.alt, 
+.woocommerce #respond input#submit,
+.woocommerce input.button.alt, 
+.woocommerce input.button:disabled, .woocommerce input.button:disabled[disabled],
+.woocommerce-cart table.cart input.button,
+.woocommerce input.button,
+.woocommerce button.button {
+	color: #283645;
+    border: solid 2px #283645;
+}
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button {
+    border: solid 2px #283645;
+	color: #283645;
+}
+.price_slider_wrapper .ui-slider-horizontal {
+  background: #283645;
+}
+.woocommerce-MyAccount-navigation ul li {
+	background: #283645;
+}
+.woocommerce-checkout #payment div.payment_box {
+	background-color: #283645;
+}
+#add_payment_method #payment div.payment_box:before, .woocommerce-cart #payment div.payment_box:before, .woocommerce-checkout #payment div.payment_box:before {
+	border: 1em solid #283645;
+}	
+.page-wrapper .posts-navigation a {
+    color: #283645;
+    border: solid 2px #283645;
+}
