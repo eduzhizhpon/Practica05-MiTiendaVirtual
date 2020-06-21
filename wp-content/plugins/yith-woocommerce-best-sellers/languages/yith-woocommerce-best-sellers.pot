@@ -1,0 +1,221 @@
+# Copyright (C) 2020 YITH
+# This file is distributed under the same license as the YITH WooCommerce Best Sellers package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Best Sellers 1.1.20\n"
+"Report-Msgid-Bugs-To: Your Inspiration Themes <plugins@yithemes.com>\n"
+"POT-Creation-Date: 2020-05-21 14:23:16+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Your Inspiration Themes <info@yithemes.com>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n1.0.2\n"
+
+#: includes/class.yith-wcbsl-bestsellers-widget.php:28
+msgid "Display first 3 best-seller products."
+msgstr ""
+
+#: includes/class.yith-wcbsl-bestsellers-widget.php:35
+msgid "Best Sellers"
+msgstr ""
+
+#: includes/class.yith-wcbsl-bestsellers-widget.php:36
+msgid "Title"
+msgstr ""
+
+#: includes/class.yith-wcbsl-bestsellers-widget.php:44
+msgid "Number of products to show"
+msgstr ""
+
+#: includes/class.yith-wcbsl-bestsellers-widget.php:49
+msgid "Show thumbnails for best-seller products"
+msgstr ""
+
+#: includes/class.yith-wcbsl-install.php:81
+msgid "Bestsellers"
+msgstr ""
+
+#: init.php:47
+msgid ""
+"YITH WooCommerce Best Sellers is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+
+#: init.php:56
+msgid ""
+"You can't activate the free version of YITH WooCommerce Best Sellers while "
+"you are using the premium one."
+msgstr ""
+
+#: plugin-options/settings-options.php:12
+msgid "General Options"
+msgstr ""
+
+#: plugin-options/settings-options.php:20
+msgid "Show \"Best Seller\" badge"
+msgstr ""
+
+#: plugin-options/settings-options.php:22
+msgid "Select to show \"Best Seller\" badge on best-seller products."
+msgstr ""
+
+#: templates/premium.php:232 templates/premium.php:374
+msgid ""
+"Upgrade to %1$spremium version%2$s of %1$sYITH WooCommerce Best Sellers%2$s "
+"to benefit from all features!"
+msgstr ""
+
+#: templates/premium.php:235 templates/premium.php:377
+msgid "UPGRADE"
+msgstr ""
+
+#: templates/premium.php:236 templates/premium.php:378
+msgid "to the premium version"
+msgstr ""
+
+#: templates/premium.php:242
+msgid "Premium Features"
+msgstr ""
+
+#: templates/premium.php:245 templates/premium.php:250
+msgid "Sale index"
+msgstr ""
+
+#: templates/premium.php:253
+msgid ""
+"Shop page is richer because it adds to your best-seller products a badge "
+"index of sales. This index informs users about %1$ssales trend%2$s for each "
+"product, if they have increased or decreased in comparison to the previous "
+"day, week, month or year. A simple way to show everyone most requested "
+"products in your store."
+msgstr ""
+
+#: templates/premium.php:263
+msgid "Sales quantity"
+msgstr ""
+
+#: templates/premium.php:266
+msgid ""
+"Administrators only will be able to see also the number of items sold for "
+"registered products since the first order or since the day, the week, the "
+"month or year before. In a glance, then, you will have an %1$soverview on "
+"products%2$s in your shop."
+msgstr ""
+
+#: templates/premium.php:270
+msgid "sales quantity"
+msgstr ""
+
+#: templates/premium.php:277 templates/premium.php:282
+msgid "Product category"
+msgstr ""
+
+#: templates/premium.php:285
+msgid ""
+"Thanks to the premium version, your users will be able to display %1$stop "
+"100 best sellers for each category%2$s in your shop. Only this way, you "
+"will be able to see products belonging to the same category sorted "
+"according to number of sales."
+msgstr ""
+
+#: templates/premium.php:295
+msgid "\"Bestseller\" badge "
+msgstr ""
+
+#: templates/premium.php:298
+msgid ""
+"Highlight all products that have generated more sales by applying to them "
+"the badge %1$s\"Bestseller\"%2$s, which will be shown both in shop page and "
+"in product detail page. But this is not all: change its %1$scolours%2$s and "
+"%1$stext%2$s to suit it to the style of your theme."
+msgstr ""
+
+#: templates/premium.php:309 templates/premium.php:314
+msgid "Best seller icon"
+msgstr ""
+
+#: templates/premium.php:317
+msgid ""
+"Another way to highlight your best-seller products (among the first 100 "
+"with more sales). Use the icon made available with the plugin or use your "
+"own custom icon to give to mark your product as %1$sbest seller%2$s but by "
+"giving it your personal style."
+msgstr ""
+
+#: templates/premium.php:327
+msgid "2 widgets"
+msgstr ""
+
+#: templates/premium.php:330
+msgid ""
+"Two %1$spowerful tools%2$s to make sidebars of your site richer with "
+"interesting information about best seller products. Thanks to these "
+"widgets, you will be able to show best sellers of the whole shop, or best "
+"seller belonging to all or just some selected categories."
+msgstr ""
+
+#: templates/premium.php:346
+msgid "Shortcode"
+msgstr ""
+
+#: templates/premium.php:349
+msgid ""
+"Enjoy now the countless opportunities offered to you by the plugin YITH "
+"WooCommerce Best Sellers. One of useful features is the possibility to use "
+"the shortcode %1$s\"Best Seller Slider\"%2$s to display best-seller "
+"products in a complete and dynamic way."
+msgstr ""
+
+#: templates/premium.php:359
+msgid "Rss"
+msgstr ""
+
+#: templates/premium.php:362
+msgid ""
+"Let your users be informed about products of your shop and keep always "
+"updated thanks to the possibility to subscribe %1$sRSS feed%2$s of your "
+"site. A simple additional feature for a top service!"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"<code><strong>YITH WooCommerce Best Sellers</strong></code> allows you to "
+"highlight best seller products of your store. You can show them on a Best "
+"Sellers page or through a widget. The plugin also allows you to show a Best "
+"Sellers badge on your products to catch your customers’ eye. <a "
+"href=\"https://yithemes.com/\" target=\"_blank\">Get more plugins for your "
+"e-commerce shop on <strong>YITH</strong></a>"
+msgstr ""
+
+#: includes/class.yith-wcbsl-admin.php:132
+msgctxt "tab name in \"YIT Plugins\" menu"
+msgid "Settings"
+msgstr ""
+
+#: includes/class.yith-wcbsl-admin.php:133
+msgctxt "tab name in \"YIT Plugins\" menu"
+msgid "Premium Version"
+msgstr ""
+
+#: includes/class.yith-wcbsl-install.php:80
+msgctxt "page_slug"
+msgid "bestsellers"
+msgstr ""
+
+#: templates/bestseller-badge.php:14
+msgctxt "Text of \"Bestseller\" Badge"
+msgid "Best Seller"
+msgstr ""

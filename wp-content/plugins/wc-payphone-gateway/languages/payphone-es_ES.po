@@ -1,0 +1,578 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce - PayPhone Gateway\n"
+"POT-Creation-Date: 2018-06-07 16:36-0500\n"
+"PO-Revision-Date: 2018-06-07 18:34-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woocommerce-gateway-payphone.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/settings/settings-pp.php:14
+msgid "Enable/Disable"
+msgstr "Activar/Desactivar"
+
+#: includes/settings/settings-pp.php:16
+msgid "Enable PayPhone Payment Module."
+msgstr "Habilitar el módulo de pago PayPhone."
+
+#: includes/settings/settings-pp.php:18
+msgid "Show payphone in the Payment List as a payment option"
+msgstr "Mostrar a PayPhone como una opción de pago en la lista de pasarelas"
+
+#: includes/settings/settings-pp.php:21
+msgid "Description:"
+msgstr "Descripción:"
+
+#: includes/settings/settings-pp.php:23
+msgid "Pay securely through PayPhone Secure Servers."
+msgstr "Realice pagos seguros a través de los servidores seguros de PayPhone."
+
+#: includes/settings/settings-pp.php:24
+msgid "This controls the description which the user sees during checkout."
+msgstr "Esto controla la descripción que el usuario ve al pagar."
+
+#: includes/settings/settings-pp.php:28
+msgid "Authorization Token:"
+msgstr "Token de autorización:"
+
+#: includes/settings/settings-pp.php:30 includes/settings/settings-pp.php:42
+msgid "Given by payphone"
+msgstr "Entregado por PayPhone"
+
+#: includes/settings/settings-pp.php:34
+msgid "Test Authorization Token:"
+msgstr "Token de autorización para pruebas:"
+
+#: includes/settings/settings-pp.php:36
+msgid "This token is used when test mode is active, given by payphone"
+msgstr ""
+"Este token se usa cuando el modo de prueba está activo, es entregado por "
+"PayPhone"
+
+#: includes/settings/settings-pp.php:40
+msgid "Store Id:"
+msgstr "Id de tienda"
+
+#: includes/settings/settings-pp.php:46
+msgid "TEST Mode"
+msgstr "Modo de Pruebas"
+
+#: includes/settings/settings-pp.php:48
+msgid "Enable PayPhone TEST Transactions."
+msgstr "Habilitar transacciones en ambiente de pruebas."
+
+#: includes/settings/settings-pp.php:50
+msgid "Tick to run TEST Transaction on the payphone platform"
+msgstr ""
+"Marque para ejecutar Transacciones de prueba en la plataforma de PayPhone"
+
+#: includes/settings/settings-pp.php:54
+msgid "Return Success Page"
+msgstr "Página de retorno de pago satisfactorio"
+
+#: includes/settings/settings-pp.php:56 includes/settings/settings-pp.php:63
+msgid "Select Page"
+msgstr "Seleccionar Pagina"
+
+#: includes/settings/settings-pp.php:57
+msgid "URL of success page"
+msgstr "URL de la pagina de pago exitoso"
+
+#: includes/settings/settings-pp.php:61
+msgid "Return Decline Page"
+msgstr "Página de retorno de pago rechazado"
+
+#: includes/settings/settings-pp.php:64
+msgid "URL of declined page"
+msgstr "URL de la página de pago rechazado"
+
+#: includes/wc-gateway-payphone-extras.php:47
+msgid "Verify transaction"
+msgstr "Verificar Transacción"
+
+#: includes/wc-gateway-payphone-extras.php:127
+msgid "Authorization Code"
+msgstr "Código de autorización"
+
+#: includes/wc-gateway-payphone-extras.php:128
+#: includes/wc-gateway-payphone.php:279
+msgid "Card Brand"
+msgstr "Marca de tarjeta"
+
+#: includes/wc-gateway-payphone-extras.php:133
+#, php-format
+msgid "Payment denied. Reasons: %s"
+msgstr "Pago Rechazado: Motivos: %s"
+
+#: includes/wc-gateway-payphone-extras.php:134
+msgid "Transaction Status"
+msgstr "Estado de transacción"
+
+#: includes/wc-gateway-payphone-extras.php:135
+msgid "Error Message"
+msgstr "Mensaje de error"
+
+#: includes/wc-gateway-payphone-extras.php:139
+#, php-format
+msgid "Pending payment, message: %s"
+msgstr "Pendiente de pago, mensaje: %s"
+
+#: includes/wc-gateway-payphone-extras.php:144
+#: includes/wc-gateway-payphone-extras.php:147
+#, php-format
+msgid "Failed order: %s"
+msgstr "Pedido fallido: %s"
+
+#: includes/wc-gateway-payphone-extras.php:175
+#: includes/wc-gateway-payphone-refund.php:67
+msgid "An error has ocurred"
+msgstr "Un error ha ocurrido"
+
+#: includes/wc-gateway-payphone-plugin.php:152
+#, php-format
+msgid "%s in WooCommerce Gateway PayPhone plugin can only be called once"
+msgstr ""
+"%s en WooCommerce el plug in Gateway PayPhone solo se puede llamar una vez"
+
+#: includes/wc-gateway-payphone-plugin.php:230
+msgid "WooCommerce Gateway PayPhone requires WooCommerce to be activated"
+msgstr "El Plug in Gateway PayPhone requiere que WooCommerce esté activo"
+
+#: includes/wc-gateway-payphone-plugin.php:234
+msgid "WooCommerce Gateway PayPhone requires WC_Payment_Gateway class"
+msgstr "WooCommerce Gateway PayPhone requiere la clase WC_Payment_Gateway"
+
+#: includes/wc-gateway-payphone-plugin.php:238
+msgid ""
+"WooCommerce Gateway PayPhone requires WooCommerce version 2.5 or greater"
+msgstr ""
+"El plug in Gateway PayPhone requiere la versión 2.5 de WooCommerce o superior"
+
+#: includes/wc-gateway-payphone-plugin.php:242
+msgid ""
+"WooCommerce Gateway PayPhone requires cURL to be installed on your server"
+msgstr ""
+"El plug in Gateway PayPhone requiere que cURL este instalado en su servidor"
+
+#: includes/wc-gateway-payphone-plugin.php:245
+msgid ""
+"WooCommerce Gateway PayPhone requires OpenSSL >= 1.0.1 to be installed on "
+"your server"
+msgstr ""
+"El plug in Gateway PayPhone requiere que OpenSSL >= 1.0.1 este instalado en "
+"su servidor"
+
+#: includes/wc-gateway-payphone-plugin.php:321
+msgid "Settings"
+msgstr "Ajustes"
+
+#: includes/wc-gateway-payphone-plugin.php:324
+msgid "Docs"
+msgstr "Docs"
+
+#: includes/wc-gateway-payphone-process.php:63
+#: includes/wc-gateway-payphone-refund.php:63
+#: includes/wc-gateway-payphone-response.php:106
+msgid "The request could not be completed"
+msgstr "No se ha podido completar la solicitud"
+
+#: includes/wc-gateway-payphone-process.php:68
+#: includes/wc-gateway-payphone.php:104
+msgid "Pay with PayPhone"
+msgstr "Paga con PayPhone"
+
+#: includes/wc-gateway-payphone-process.php:119
+msgid "client_tx_id"
+msgstr "client_tx_id"
+
+#: includes/wc-gateway-payphone-response.php:39
+msgid "No valid response was obtained"
+msgstr "No se obtuvo una respuesta válida"
+
+#: includes/wc-gateway-payphone-response.php:40
+#: includes/wc-gateway-payphone-response.php:44
+#: includes/wc-gateway-payphone.php:260 includes/wc-gateway-payphone.php:285
+#: includes/wc-gateway-payphone.php:292 includes/wc-gateway-payphone.php:301
+msgid "Payment error:"
+msgstr "Error en pago:"
+
+#: includes/wc-gateway-payphone-response.php:40
+msgid ""
+"Url not found, payment with PayPhone will be automatically reversed, contact "
+"the administrator"
+msgstr ""
+"Url no encontrada, el pago con PayPhone se reversará automaticamente, "
+"contactese con el administrador"
+
+#: includes/wc-gateway-payphone-response.php:49
+msgid "Payment result:"
+msgstr "Resultado de pago:"
+
+#: includes/wc-gateway-payphone.php:22
+msgid "Receive payments via PayPhone"
+msgstr "Recibe pagos con PayPhone"
+
+#: includes/wc-gateway-payphone.php:30
+msgid "PayPhone Payments"
+msgstr "Pagos con PayPhone"
+
+#: includes/wc-gateway-payphone.php:103
+msgid "PayPhone"
+msgstr "PayPhone"
+
+#: includes/wc-gateway-payphone.php:107
+msgid "Initial Key Setting"
+msgstr "Ajustes iniciales"
+
+#: includes/wc-gateway-payphone.php:108
+msgid "Response URL:"
+msgstr "URL de respuesta:"
+
+#: includes/wc-gateway-payphone.php:140 includes/wc-gateway-payphone.php:142
+msgid "You must set up a valid token"
+msgstr "Debe configurar un token válido"
+
+#: includes/wc-gateway-payphone.php:193
+msgid "Refund Error: You need to specify a refund amount."
+msgstr "Error de reembolso: debe especificar un valor de reembolso."
+
+#: includes/wc-gateway-payphone.php:197
+#, php-format
+msgid "Refund Error: PayPhone only allow refund order total %s"
+msgstr ""
+"Error de reembolso: PayPhone solo permite el total de la orden de reembolso "
+"%s"
+
+#: includes/wc-gateway-payphone.php:205
+msgid "PayPhone refund completed"
+msgstr "Reembolso con PayPhone completado"
+
+#: includes/wc-gateway-payphone.php:211 includes/wc-gateway-payphone.php:213
+#, php-format
+msgid "Refund Error: %s"
+msgstr "Error de reembolso: %s"
+
+#: includes/wc-gateway-payphone.php:244
+msgid "PayPhone Request Failure"
+msgstr "La solicitud a PayPhone ha fallado"
+
+#: includes/wc-gateway-payphone.php:278
+msgid "Authorization number"
+msgstr "Número de autorización"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce - PayPhone Gateway"
+msgstr "WooCommerce - Pasarela de Pago PayPhone"
+
+#. Plugin URI of the plugin/theme
+msgid "https://ecommerce.livepayphone.com/"
+msgstr "https://ecommerce.livepayphone.com/"
+
+#. Description of the plugin/theme
+msgid ""
+"PayPhone Payment Gateway for WooCommerce. Recibe pagos en internet mediante "
+"payphone!"
+msgstr ""
+"Pasarela de pago PayPhone para WooCommerce. Recibe pagos en internet "
+"mediante payphone!"
+
+#. Author of the plugin/theme
+msgid "PAYPHONE."
+msgstr "PAYPHONE."
+
+#. Author URI of the plugin/theme
+msgid "https://livepayphone.com/"
+msgstr "https://livepayphone.com/"
+
+#~ msgid "https://appdeveloper.payphonetodoesposible.com/"
+#~ msgstr "https://appdeveloper.payphonetodoesposible.com/"
+
+#~ msgid "Title:"
+#~ msgstr "Titulo:"
+
+#~ msgid "This controls the title which the user sees during checkout."
+#~ msgstr ""
+#~ "Esto controla el nombre del método de pago de pago que el usuario ve al "
+#~ "pagar."
+
+#~ msgid "Message for approved transaction"
+#~ msgstr "Mensaje para transacciones aprobadas"
+
+#~ msgid "PayPhone Payment Approved"
+#~ msgstr "El pago con PayPhone fue aprobado"
+
+#~ msgid "Message for declined transaction"
+#~ msgstr "Mensaje para las transacciones rechazadas"
+
+#~ msgid "Payment declined"
+#~ msgstr "Pago cancelado"
+
+#~ msgid "Message for rejected transaction"
+#~ msgstr "Menssaje para transaccion rechazadas"
+
+#~ msgid "Payment rejected"
+#~ msgstr "Pago Rechazado"
+
+#~ msgid "Transaction Id Payphone"
+#~ msgstr "Id de transacción PayPhone"
+
+#~ msgid "Transaction number"
+#~ msgstr "Número de transacción"
+
+#~ msgid "Message for declined transaction "
+#~ msgstr "Mensaje para una transacción rechazada "
+
+#~ msgid "Message for rejected transaction "
+#~ msgstr "Mensaje para transacción rechazada "
+
+#~ msgid ""
+#~ "Thank you for your order, press the next button to continue the payment."
+#~ msgstr ""
+#~ "Gracias por tu pedido, presiona el siguiente botón para continuar con el "
+#~ "pago."
+
+#~ msgid "Application Id:"
+#~ msgstr "Id de aplicación"
+
+#~ msgid "Client Id:"
+#~ msgstr "Id de Cliente"
+
+#~ msgid "Client Secret:"
+#~ msgstr "Clave secreta de cliente"
+
+#~ msgid "Live URL:"
+#~ msgstr "Url de producción"
+
+#~ msgid "Test URL:"
+#~ msgstr "Url de prueba"
+
+#~ msgid "Token End Point URL:"
+#~ msgstr "Url para obtener el token"
+
+#~ msgid "Gateway Language"
+#~ msgstr "Idioma de la plataforma"
+
+#~ msgid "PayPhone Gateway Language "
+#~ msgstr "Lenguaje de la pasarela PayPhone"
+
+#~ msgid "Application Public Key (Delivered by Payphone)"
+#~ msgstr "Llave pública de la aplicación (Entregada por PayPhone)"
+
+#~ msgid "Save"
+#~ msgstr "Guardar"
+
+#~ msgid "Saving ... Please wait"
+#~ msgstr "Guardando... Por favor espere"
+
+#~ msgid "Private client key (Delivered by Payphone)"
+#~ msgstr "Llave privada del cliente (Entregada por PayPhone)"
+
+#~ msgid ""
+#~ "Token (They are generated automatically, to restore press the next button)"
+#~ msgstr ""
+#~ "Token (Se generan automáticamente, para restablecer presiona el siguiente "
+#~ "botón)"
+
+#~ msgid "Reset token"
+#~ msgstr "Reestablecer token"
+
+#~ msgid "Resetting token ... Please wait"
+#~ msgstr "Reestableciendo el token... Por favor espere"
+
+#~ msgid "Application parameters"
+#~ msgstr "Parámetros de aplicación"
+
+#~ msgid "Redirecting to PayPhone to make payment"
+#~ msgstr "Redireccionando a PayPhone para realizar el pago"
+
+#~ msgid "Cancel order &amp; restore cart"
+#~ msgstr "Cancelar Orden y restaurar el carro de compra"
+
+#~ msgid "PayPhone payment approved"
+#~ msgstr "Pago con PayPhone aprobado"
+
+#~ msgid "A mail was send to "
+#~ msgstr "Se ha enviado in correo a"
+
+#~ msgid "Payment denied via PayPhone. Error type: %s"
+#~ msgstr "Pago denegado via PayPhone. Error de tipo: %s"
+
+#~ msgid "Argentine Peso"
+#~ msgstr "Peso Argentino"
+
+#~ msgid "Brasilian Real"
+#~ msgstr "Real Brasileño"
+
+#~ msgid "Colombian Peso"
+#~ msgstr "Peso Colombiano"
+
+#~ msgid "Mexican Peso"
+#~ msgstr "Peso Mexicano"
+
+#~ msgid "Perubian New Sol"
+#~ msgstr "Nuevo Sol Peruano"
+
+#~ msgid "US Dollar"
+#~ msgstr "Dólar Americano"
+
+#~ msgid "Client private key successfully update"
+#~ msgstr "Llave privada del cliente actualizada correctamente"
+
+#~ msgid "Public server key successfully update"
+#~ msgstr "Llave publica del servidor actualizada correctamente"
+
+#~ msgid "Token reset correctly"
+#~ msgstr "Token reestablecido correctamente"
+
+#~ msgid "PayU Latam"
+#~ msgstr "PayU Latinoamérica"
+
+#~ msgid "The easiest way to sell and recive payments online in latinamerica"
+#~ msgstr ""
+#~ "La forma fácil de vender y recibir pagos por internet en Latinoamérica"
+
+#~ msgid "Enable PayU Latam Payment Module."
+#~ msgstr "Activar Método de Pago PayU Latinoamérica."
+
+#~ msgid "Show in the Payment List as a payment option"
+#~ msgstr "Mostrar PayU Latinoamérica en la lista de métodos de pago."
+
+#~ msgid "PayU Latam Online Payments"
+#~ msgstr "Pagos en linea PayU Latinoamérica "
+
+#~ msgid ""
+#~ "Pay securely by Credit or Debit Card or Internet Banking through PayU "
+#~ "Latam Secure Servers."
+#~ msgstr ""
+#~ "Pague con tarjeta de crédito, debito o transacción bancaria de forma "
+#~ "segura a través de los servidores seguros de PayU Latinoamérica."
+
+#~ msgid "Merchant ID"
+#~ msgstr "ID del Vendedor"
+
+#~ msgid "Given to Merchant by PayU Latam"
+#~ msgstr "Identificación del vendedor promocionada por PayU Latinoamérica"
+
+#~ msgid "Account ID"
+#~ msgstr "ID de la Cuenta"
+
+#~ msgid ""
+#~ "Some Countrys (Brasil, Mexico) require this ID, Gived to you by PayU "
+#~ "Latam on regitration."
+#~ msgstr ""
+#~ "Algunos Países (Brasil, Mexico) requieren esta información proporcionada "
+#~ "por PayU Latinoamérica."
+
+#~ msgid "ApiKey"
+#~ msgstr "Llave de API"
+
+#~ msgid "Enable PayU Latam TEST Transactions."
+#~ msgstr "Habilita las transacciones de prueba en PayU Latinoamérica"
+
+#~ msgid "Tick to run TEST Transaction on the PayU Latam platform"
+#~ msgstr ""
+#~ "Activar para hacer transacciones de prueba con la plataforma de PayU "
+#~ "Latinoamérica."
+
+#~ msgid "Tax Rate - Read"
+#~ msgstr "Tasa de Impuestos - Leer "
+
+#~ msgid "Tax rates for Transactions (IVA)."
+#~ msgstr "Tasa de Impuestos sobre las transacciones (IVA)."
+
+#~ msgid "Tax Return Base"
+#~ msgstr "Tasa de Retorno sobre las transacciones"
+
+#~ msgid "Tax base to calculate IVA "
+#~ msgstr "Tasa para calcular impuestos."
+
+#~ msgid "PayU Latam Gateway Language "
+#~ msgstr "Idioma que desea para la plataforma de PayU Latinoamérica"
+
+#~ msgid "Return Page"
+#~ msgstr "Pagina de regreso"
+
+#~ msgid "Empty Cart after payment completed."
+#~ msgstr "Vaciar Carro después de que el pago se complete."
+
+#~ msgid ""
+#~ "Do you want empty the user shopping cart after the payment is complete?."
+#~ msgstr ""
+#~ "Desea vaciar el carro de compra del usuario después de que la compra sea "
+#~ "completada?"
+
+#~ msgid ""
+#~ "Thank you for your order, please click the button below to pay with PayU "
+#~ "Latam."
+#~ msgstr ""
+#~ "Gracias por su orden, por favor seleccione el botón abajo para pagar con "
+#~ "PayU Latinoamérica."
+
+#~ msgid ""
+#~ "Thank you for your order. We are now redirecting you to PayU Latam to "
+#~ "make payment."
+#~ msgstr ""
+#~ "Gracias por su Orden, Lo estamos redireccionando a la plataforma de PayU "
+#~ "Latinoamérica para realizar el pago."
+
+#~ msgid "Pay via PayU Latam"
+#~ msgstr "Pagar con PayU Latinoamérica."
+
+#~ msgid "PayU Latam Request Failure"
+#~ msgstr "Fallo la petición a PayU Latinoamérica"
+
+#~ msgid "Payment error: Amounts do not match (Amount "
+#~ msgstr "Error al pagar: Cantidades no coinciden (Cantidad "
+
+#~ msgid "Validation error: PayU Latam amounts do not match (gross %s)."
+#~ msgstr ""
+#~ "Error de Validación: La cantidad pagada en PayU Latinoamérica  no "
+#~ "coincide (Cantidad %s)."
+
+#~ msgid "Validation error: Payment in PayU Latam comes from another id (%s)."
+#~ msgstr ""
+#~ "Error de Validación: El pago en PayU fue hecho a otro Vendedor (%s)."
+
+#~ msgid "Payer PayU Latam email"
+#~ msgstr "Correo Electrónico del comprador en PayU Latinoamérica"
+
+#~ msgid "Trasability Code"
+#~ msgstr "Código de Trazabilidad"
+
+#~ msgid "PayU Latam payment approved"
+#~ msgstr "Pago Aprovado por PayU Latinoamérica"
+
+#~ msgid "PayU Latam Payment Approved"
+#~ msgstr "Pago Aprovado por PayU Latinoamérica"
+
+#~ msgid "Payment rejected via PayU Latam. Error type: %s"
+#~ msgstr "Pago Rechazado por PayU Latinoamérica. Tipo de error: %s"
+
+#~ msgid "Payment rejected via PayU Latam. Error type: %s."
+#~ msgstr "Pago Rechazado por PayU Latinoamérica. Tipo de error: %s"
+
+#~ msgid "Aborting, Order #"
+#~ msgstr "Cancelando, Orden #"
+
+#~ msgid "Payment error: Amounts do not match (amount "
+#~ msgstr "Error al pagar: Las cantidades no coinciden (cantidad "
+
+#~ msgid "Payment rejected via PayU Latam."
+#~ msgstr "Pago Rechazado por PayU Latinoamérica."
+
+#~ msgid "Error: Order Key does not match invoice."
+#~ msgstr "Error: La llave de la Orden no coincide."
