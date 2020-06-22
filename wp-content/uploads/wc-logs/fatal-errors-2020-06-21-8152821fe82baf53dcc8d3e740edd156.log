@@ -1,0 +1,170 @@
+2020-06-21T21:51:47+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in /var/www/html/wp-content/themes/storecommerce/inc/woocommerce.php:667
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(287): storecommerce_add_to_cart_text()
+#1 /var/www/html/wp-includes/plugin.php(206): WP_Hook->apply_filters()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-simple.php(62): apply_filters()
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(473): WC_Product_Simple->add_to_cart_text()
+#4 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(446): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_add_to_cart()
+#5 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(333): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_button_html()
+#6 [internal function]: Automattic\WooCommerce\Blocks\ en /var/www/html/wp-content/themes/storecommerce/inc/woocommerce.php en la línea 667
+
+2020-06-21T21:51:55+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in /var/www/html/wp-content/themes/storecommerce/inc/woocommerce.php:667
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(287): storecommerce_add_to_cart_text()
+#1 /var/www/html/wp-includes/plugin.php(206): WP_Hook->apply_filters()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-simple.php(62): apply_filters()
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(473): WC_Product_Simple->add_to_cart_text()
+#4 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(446): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_add_to_cart()
+#5 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(333): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_button_html()
+#6 [internal function]: Automattic\WooCommerce\Blocks\ en /var/www/html/wp-content/themes/storecommerce/inc/woocommerce.php en la línea 667
+
+2020-06-21T21:51:57+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in /var/www/html/wp-content/themes/storecommerce/inc/woocommerce.php:667
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(287): storecommerce_add_to_cart_text()
+#1 /var/www/html/wp-includes/plugin.php(206): WP_Hook->apply_filters()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-simple.php(62): apply_filters()
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(473): WC_Product_Simple->add_to_cart_text()
+#4 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(446): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_add_to_cart()
+#5 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(333): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_button_html()
+#6 [internal function]: Automattic\WooCommerce\Blocks\ en /var/www/html/wp-content/themes/storecommerce/inc/woocommerce.php en la línea 667
+
+2020-06-21T21:51:59+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in /var/www/html/wp-content/themes/storecommerce/inc/woocommerce.php:667
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(287): storecommerce_add_to_cart_text()
+#1 /var/www/html/wp-includes/plugin.php(206): WP_Hook->apply_filters()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-simple.php(62): apply_filters()
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(473): WC_Product_Simple->add_to_cart_text()
+#4 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(446): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_add_to_cart()
+#5 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(333): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_button_html()
+#6 [internal function]: Automattic\WooCommerce\Blocks\ en /var/www/html/wp-content/themes/storecommerce/inc/woocommerce.php en la línea 667
+
+2020-06-21T21:52:11+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in /var/www/html/wp-content/themes/storecommerce/inc/woocommerce.php:667
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(287): storecommerce_add_to_cart_text()
+#1 /var/www/html/wp-includes/plugin.php(206): WP_Hook->apply_filters()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-simple.php(62): apply_filters()
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(473): WC_Product_Simple->add_to_cart_text()
+#4 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(446): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_add_to_cart()
+#5 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(333): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_button_html()
+#6 [internal function]: Automattic\WooCommerce\Blocks\ en /var/www/html/wp-content/themes/storecommerce/inc/woocommerce.php en la línea 667
+
+2020-06-21T21:52:13+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in /var/www/html/wp-content/themes/storecommerce/inc/woocommerce.php:667
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(287): storecommerce_add_to_cart_text()
+#1 /var/www/html/wp-includes/plugin.php(206): WP_Hook->apply_filters()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-simple.php(62): apply_filters()
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(473): WC_Product_Simple->add_to_cart_text()
+#4 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(446): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_add_to_cart()
+#5 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(333): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_button_html()
+#6 [internal function]: Automattic\WooCommerce\Blocks\ en /var/www/html/wp-content/themes/storecommerce/inc/woocommerce.php en la línea 667
+
+2020-06-21T21:52:22+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in /var/www/html/wp-content/themes/storecommerce/inc/woocommerce.php:667
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(287): storecommerce_add_to_cart_text()
+#1 /var/www/html/wp-includes/plugin.php(206): WP_Hook->apply_filters()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-simple.php(62): apply_filters()
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(473): WC_Product_Simple->add_to_cart_text()
+#4 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(446): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_add_to_cart()
+#5 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(333): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_button_html()
+#6 [internal function]: Automattic\WooCommerce\Blocks\ en /var/www/html/wp-content/themes/storecommerce/inc/woocommerce.php en la línea 667
+
+2020-06-21T21:52:25+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in /var/www/html/wp-content/themes/storecommerce/inc/woocommerce.php:667
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(287): storecommerce_add_to_cart_text()
+#1 /var/www/html/wp-includes/plugin.php(206): WP_Hook->apply_filters()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-simple.php(62): apply_filters()
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(473): WC_Product_Simple->add_to_cart_text()
+#4 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(446): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_add_to_cart()
+#5 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(333): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_button_html()
+#6 [internal function]: Automattic\WooCommerce\Blocks\ en /var/www/html/wp-content/themes/storecommerce/inc/woocommerce.php en la línea 667
+
+2020-06-21T21:52:26+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in /var/www/html/wp-content/themes/storecommerce/inc/woocommerce.php:667
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(287): storecommerce_add_to_cart_text()
+#1 /var/www/html/wp-includes/plugin.php(206): WP_Hook->apply_filters()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-simple.php(62): apply_filters()
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(473): WC_Product_Simple->add_to_cart_text()
+#4 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(446): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_add_to_cart()
+#5 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(333): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_button_html()
+#6 [internal function]: Automattic\WooCommerce\Blocks\ en /var/www/html/wp-content/themes/storecommerce/inc/woocommerce.php en la línea 667
+
+2020-06-21T21:52:33+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in /var/www/html/wp-content/themes/storecommerce/inc/woocommerce.php:667
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(287): storecommerce_add_to_cart_text()
+#1 /var/www/html/wp-includes/plugin.php(206): WP_Hook->apply_filters()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-simple.php(62): apply_filters()
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(473): WC_Product_Simple->add_to_cart_text()
+#4 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(446): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_add_to_cart()
+#5 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(333): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_button_html()
+#6 [internal function]: Automattic\WooCommerce\Blocks\ en /var/www/html/wp-content/themes/storecommerce/inc/woocommerce.php en la línea 667
+
+2020-06-21T21:52:37+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in /var/www/html/wp-content/themes/storecommerce/inc/woocommerce.php:667
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(287): storecommerce_add_to_cart_text()
+#1 /var/www/html/wp-includes/plugin.php(206): WP_Hook->apply_filters()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-simple.php(62): apply_filters()
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(473): WC_Product_Simple->add_to_cart_text()
+#4 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(446): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_add_to_cart()
+#5 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(333): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_button_html()
+#6 [internal function]: Automattic\WooCommerce\Blocks\ en /var/www/html/wp-content/themes/storecommerce/inc/woocommerce.php en la línea 667
+
+2020-06-21T21:52:57+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in /var/www/html/wp-content/themes/storecommerce/inc/woocommerce.php:667
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(287): storecommerce_add_to_cart_text()
+#1 /var/www/html/wp-includes/plugin.php(206): WP_Hook->apply_filters()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-simple.php(62): apply_filters()
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(473): WC_Product_Simple->add_to_cart_text()
+#4 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(446): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_add_to_cart()
+#5 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(333): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_button_html()
+#6 [internal function]: Automattic\WooCommerce\Blocks\ en /var/www/html/wp-content/themes/storecommerce/inc/woocommerce.php en la línea 667
+
+2020-06-21T21:53:10+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in /var/www/html/wp-content/themes/storecommerce/inc/woocommerce.php:667
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(287): storecommerce_add_to_cart_text()
+#1 /var/www/html/wp-includes/plugin.php(206): WP_Hook->apply_filters()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-simple.php(62): apply_filters()
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(473): WC_Product_Simple->add_to_cart_text()
+#4 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(446): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_add_to_cart()
+#5 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(333): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_button_html()
+#6 [internal function]: Automattic\WooCommerce\Blocks\ en /var/www/html/wp-content/themes/storecommerce/inc/woocommerce.php en la línea 667
+
+2020-06-21T21:53:52+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in /var/www/html/wp-content/themes/storecommerce/inc/woocommerce.php:667
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(287): storecommerce_add_to_cart_text()
+#1 /var/www/html/wp-includes/plugin.php(206): WP_Hook->apply_filters()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-simple.php(62): apply_filters()
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(473): WC_Product_Simple->add_to_cart_text()
+#4 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(446): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_add_to_cart()
+#5 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(333): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_button_html()
+#6 [internal function]: Automattic\WooCommerce\Blocks\ en /var/www/html/wp-content/themes/storecommerce/inc/woocommerce.php en la línea 667
+
+2020-06-21T21:53:59+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in /var/www/html/wp-content/themes/storecommerce/inc/woocommerce.php:667
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(287): storecommerce_add_to_cart_text()
+#1 /var/www/html/wp-includes/plugin.php(206): WP_Hook->apply_filters()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-simple.php(62): apply_filters()
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(473): WC_Product_Simple->add_to_cart_text()
+#4 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(446): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_add_to_cart()
+#5 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(333): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_button_html()
+#6 [internal function]: Automattic\WooCommerce\Blocks\ en /var/www/html/wp-content/themes/storecommerce/inc/woocommerce.php en la línea 667
+
+2020-06-21T22:30:36+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in /var/www/html/wp-content/themes/storecommerce/inc/woocommerce.php:667
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(287): storecommerce_add_to_cart_text()
+#1 /var/www/html/wp-includes/plugin.php(206): WP_Hook->apply_filters()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-simple.php(62): apply_filters()
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(473): WC_Product_Simple->add_to_cart_text()
+#4 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(446): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_add_to_cart()
+#5 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(333): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_button_html()
+#6 [internal function]: Automattic\WooCommerce\Blocks\ en /var/www/html/wp-content/themes/storecommerce/inc/woocommerce.php en la línea 667
+
+2020-06-21T22:30:38+00:00 CRITICAL Uncaught Error: Call to a member function is_type() on null in /var/www/html/wp-content/themes/storecommerce/inc/woocommerce.php:667
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(287): storecommerce_add_to_cart_text()
+#1 /var/www/html/wp-includes/plugin.php(206): WP_Hook->apply_filters()
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/class-wc-product-simple.php(62): apply_filters()
+#3 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(473): WC_Product_Simple->add_to_cart_text()
+#4 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(446): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_add_to_cart()
+#5 /var/www/html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/BlockTypes/AbstractProductGrid.php(333): Automattic\WooCommerce\Blocks\BlockTypes\AbstractProductGrid->get_button_html()
+#6 [internal function]: Automattic\WooCommerce\Blocks\ en /var/www/html/wp-content/themes/storecommerce/inc/woocommerce.php en la línea 667
+
